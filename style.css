@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #faf0f0;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+a{
+    color: rgb(0, 0, 0);
+    font-size:25px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    border-bottom: 5px solid transparent;
+    transition:.6s;
+}
+a:hover{
+    background-color: #d4c8c8;
+    border-bottom-color: red;
+}
+
+
+#banner{
+    background-image: url(./pexels-luis-del-río-15286.jpg);
+    height: 400px;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+div{
+    width: 400px;
+}
+img{
+    width: 100%;
+}
+#icon{
+    background-image: url(https://www.creativeitinstitute.com/logo.png);
+     width: 173px;
+     height: 53px;
+    
+}
+h1{color: red;}
